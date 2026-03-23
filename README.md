@@ -2,7 +2,16 @@
 
 ## AIM
 To develop a convolutional deep neural network (CNN) for image classification and to verify the response for new images.
+
+## PROBLEM STATEMENT AND DATASET
+Image classification is a fundamental task in computer vision where an input image is assigned to one of several predefined classes. The objective of this experiment is to build and train a Convolutional Neural Network (CNN) using a labeled image dataset and evaluate its performance using accuracy, confusion matrix, and classification report.
+
+## Neural Network Model
+
+<img width="998" height="698" alt="image" src="https://github.com/user-attachments/assets/1644c565-424d-428c-975e-a8337ead2c39" />
+
 ## DESIGN STEPS
+
 ### STEP 1: 
 Import the required libraries (torch, torchvision, torch.nn, torch.optim) and load the image dataset with necessary preprocessing like normalization and transformation.
 
@@ -225,3 +234,7 @@ predict_image(model, image_index=18, dataset=test_dataset)
 
 ## RESULT
 The Convolutional Neural Network (CNN) model was successfully trained and achieved good classification performance on the given image dataset.
+
+
+
+
